@@ -381,6 +381,9 @@ address {
 
 /* max-width 751px*/
 @media only screen and (max-width: 46.938em) {
+  body {
+    font-size: 1em;
+  }
 
   .header_nav {
     grid-template-columns: 2.5fr .75fr .25fr;
@@ -426,12 +429,7 @@ address {
   }
 
   .account img {
-    width: 150%;
-  }
-  
-  footer a,
-  footer p {
-    font-size: 1em;
+    width: 100%;
   }
   
   footer address {
