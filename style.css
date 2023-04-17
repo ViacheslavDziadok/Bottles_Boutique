@@ -59,7 +59,7 @@ a {
 }
 
 .icon img {
-  width: 50%;
+  width: 75%;
 }
 
 .site_nav {
@@ -442,10 +442,6 @@ address {
 @media only screen and (min-width: 46.939em) and (max-width: 64.063em) {
   body {
     font-size: 1em;
-  }
-
-  .icon img {
-    width: 100%;
   }
 
   .account img {
