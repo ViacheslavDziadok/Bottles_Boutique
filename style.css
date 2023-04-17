@@ -8,6 +8,8 @@ body {
     "main"
     "footer";
 
+  font-size: 1.5em;
+
   margin: 0;
   padding: 0;
 }
@@ -21,7 +23,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 h4 {
@@ -117,6 +119,7 @@ header img {
   max-width: 100%;
   height: 100%;
   width: 100%;
+  opacity: 0.5;
   object-fit: cover;
 }
 
@@ -434,6 +437,9 @@ address {
 
 /* max-width 1025px*/
 @media only screen and (min-width: 46.939em) and (max-width: 64.063em) {
+  body {
+    font-size: 1em;
+  }
 
   .icon img {
     width: 100%;
