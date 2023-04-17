@@ -20,8 +20,8 @@
   <!-- main navigation, depending on layout can be in header -->
   <nav class="header_nav">
     <!-- add logo as link back to home -->
-    <a href="en/index.html">
-      <img class="icon" src="img/logo-bottles-boutique.png" alt="Logo Bottles Boutique" title="Go back to Homepage">
+    <a class="icon" href="en/index.html">
+      <img src="img/logo-bottles-boutique.png" alt="Logo Bottles Boutique" title="Go back to Homepage">
     </a>
     <!-- to add more styling possibilities, wrapping the navigation links in an unordered list is recommended. Semantically also correct, as we talk about a list of links -->
     <ul class="site_nav">
@@ -37,10 +37,14 @@
     </ul>
     <ul class="account">
       <li>
-        <a href="en/account.html">Account</a>
+        <a href="en/account.html">
+          <img src="img/ico/user.svg" alt="Account">
+        </a>
       </li>
       <li>
-        <a href="en/cart.html">Shopping cart</a>
+        <a href="en/cart.html">
+          <img src="img/ico/cart.svg" alt="Shopping cart">
+        </a>
       </li>
     </ul>
     <ul class="language">
@@ -56,6 +60,7 @@
     </ul>
   </nav>
   <header>
+    <img src="img/waterdrops.jpg" alt="Clean water">
     <!-- For SEO reasons only one h1 is still recommended, it should be an unique headline per page, can also be in the main section, depending on layout -->
     <h1>Reusable bottles in beautiful designs.</h1>
     <p>For water and more. Waterproof. Leak-proof. Keeps you drink ice-cold or super warm. For 24 hours.</p>
@@ -68,19 +73,19 @@
       <h2>Our bottles - beautiful & practical</h2>
       <ul>
         <li>
-          <!-- add icon here -->
-          <h4>Sustainable resourced</h4>
+          <img src="img/ico/leaf.svg" alt="Sustainable">
+          <h4>Sustainable <br> resourced</h4>
         </li>
         <li>
-          <!-- add icon here -->
-          <h4>100% Recyclable</h4>
+          <img src="img/ico/recycling.svg" alt="Recyclable">
+          <h4>100% <br> Recyclable</h4>
         </li>
         <li>
-          <!-- add icon here -->
-          <h4>24 hours cold or hot</h4>
+          <img src="img/ico/onsen.svg" alt="Hot & Cold">
+          <h4>24 hours <br> cold or hot</h4>
         </li>
         <li>
-          <!-- add icon here -->
+          <img src="img/ico/droplet.svg" alt="BPA free">
           <h4>BPA <br> free</h4>
         </li>
       </ul>
@@ -118,19 +123,21 @@
       <h3>Stories</h3>
       <a href="en/reviews.html">All stories and reviews &raquo;</a>
       <ul>
-        <li class="stories co-brand">
-          <div class="co-brand-text">
+        <li>
+          <a href="en/co-brand.html">
+            <img src="img/cobranded-option-1.jpg" alt="Co-Brand your own bottle">
             <h4>Co-brand your bottle</h4>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, quibusdam.</p>
-            <a href="en/reviews.html">Read more &raquo;</a>
-          </div>
+            <span>Read More &raquo;</span>
+          </a>
         </li>
-        <li class="stories top-reviews">
-          <div class="review-text">
+        <li>
+          <a href="en/reviews.html">
+            <img src="img/review-bottle.jpg" alt="Read all reviews">
             <h4>Top reviews</h4>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id optio maxime assumenda.</p>
-            <a href="en/reviews.html">Read more &raquo;</a>
-          </div>
+            <span>Read More &raquo;</span>
+          </a>
         </li>
       </ul>
     </aside>
