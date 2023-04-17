@@ -78,6 +78,10 @@ a {
   justify-content: space-evenly;
 }
 
+.account img {
+  width: 200%;
+}
+
 .language {
   display: flex;
   grid-area: language;
@@ -134,7 +138,7 @@ header h1 {
 header p {
   position: relative;
 
-  max-width: 50%;
+  max-width: 60%;
 }
 
 header a {
@@ -396,10 +400,6 @@ address {
     display: none;
   }
 
-  header p {
-    max-width: 60%;
-  }
-
   main {
     width: 90%;
   }
@@ -424,6 +424,10 @@ address {
     display: flex;
     flex-direction: column;
   }
+
+  .account img {
+    width: 150%;
+  }
   
   footer a,
   footer p {
@@ -444,6 +448,10 @@ address {
 
   .icon img {
     width: 100%;
+  }
+
+  .account img {
+    width: 150%;
   }
 
   footer {
